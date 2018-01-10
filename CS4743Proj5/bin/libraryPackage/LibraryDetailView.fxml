@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+  	  <ListView fx:id="listView" layoutX="23.0" layoutY="101.0" onMouseClicked="#onMouseClick" prefHeight="273.0" prefWidth="400.0" />
+      <Label layoutX="7.0" layoutY="43.0" text="Library Name: " />
+      <TextField fx:id="LibraryName" layoutX="100.0" layoutY="39.0" prefHeight="25.0" prefWidth="325.0" />
+      <Button fx:id="Audit" layoutX="442.0" layoutY="39.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="25.0" prefWidth="144.0" text="Audit Trail" />
+      <Button fx:id="InvReport" layoutX="442.0" layoutY="77.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="25.0" prefWidth="144.0" text="Inv. Report" />
+      <Button fx:id="Save" layoutX="442.0" layoutY="113.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="25.0" prefWidth="144.0" text="Save" />
+      <Label layoutX="23.0" layoutY="81.0" text="Book Inventory" />
+      <ComboBox fx:id="Books" layoutX="423.0" layoutY="260.0" prefWidth="150.0" />
+      <TextField fx:id="Quantity" layoutX="425.0" layoutY="296.0" prefHeight="25.0" prefWidth="91.0" />
+      <Button fx:id="DeleteBook" layoutX="442.0" layoutY="348.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="25.0" prefWidth="144.0" text="Delete Book" />
+      <Button fx:id="Delete" layoutX="442.0" layoutY="145.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="25.0" prefWidth="144.0" text="Delete Library" />
+      <Button fx:id="AddBook" layoutX="524.0" layoutY="296.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="25.0" prefWidth="144.0" text="Add" />
+   </children>
+</AnchorPane>

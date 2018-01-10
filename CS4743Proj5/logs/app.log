@@ -1,0 +1,44 @@
+15:02:15.668 ERROR authorstuff.AuthorTableGateway : Failed reading databasejava.sql.SQLException: Column 'web_site' not found.
+15:02:18.556 INFO  authorstuff.AuthorTableGateway : closed
+15:03:14.408 INFO  mainview.ViewDetailController : clicked on John Jacob
+15:03:18.867 ERROR authorstuff.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'rmr581.autdit_trail' doesn't exist
+15:03:25.159 INFO  authorstuff.AuthorTableGateway : closed
+15:03:53.502 INFO  mainview.ViewDetailController : clicked on John Jacob
+15:03:55.168 ERROR authorstuff.AuthorTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'rmr581.autdit_trail' doesn't exist
+15:04:11.854 INFO  authorstuff.AuthorTableGateway : closed
+15:04:48.362 INFO  mainview.ViewDetailController : clicked on John Jacob
+15:05:26.471 INFO  mainview.ViewDetailController : clicked on Johnny John
+15:05:34.821 ERROR bookstuff.BookTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'rmr581.book' doesn't exist
+15:05:38.760 INFO  authorstuff.AuthorTableGateway : closed
+15:06:04.144 INFO  bookstuff.BookController : clicked on Arnold Robbins - booooook
+15:06:05.477 INFO  test.MasterController : 7
+15:06:14.493 INFO  bookstuff.BookController : clicked on Johnny Bonnyo - book
+15:06:16.357 INFO  test.MasterController : 6
+15:06:56.651 INFO  bookstuff.BookController : clicked on Jonathan Gennick - This
+15:06:57.584 INFO  test.MasterController : 8
+15:07:02.402 ERROR librarystuff.LibraryTableGateway : Failed reading databasecom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'rmr581.library_book' doesn't exist
+15:07:07.948 INFO  authorstuff.AuthorTableGateway : closed
+15:07:27.034 ERROR librarystuff.LibraryTableGateway : Failed reading databasejava.sql.SQLException: Column 'last_modified' not found.
+15:08:27.434 INFO  librarystuff.LibraryController : clicked on test
+15:08:36.537 INFO  librarystuff.LibraryController : clicked on test
+15:08:46.665 INFO  librarystuff.LibraryDetailController : 2017-08-09T11:13:30
+15:08:48.375 INFO  librarystuff.LibraryController : clicked on test
+15:09:03.718 INFO  librarystuff.LibraryTableGateway : start
+15:09:03.765 INFO  librarystuff.LibraryDetailController : null
+15:09:05.329 INFO  librarystuff.LibraryController : clicked on Bigone
+15:09:09.500 INFO  librarystuff.LibraryDetailController : 2017-08-12T15:09:35
+15:09:10.731 INFO  librarystuff.LibraryController : clicked on Bigone
+15:09:21.903 INFO  librarystuff.LibraryDetailController : 2017-08-12T15:09:35
+15:09:23.131 INFO  librarystuff.LibraryController : clicked on Bigone
+15:09:28.433 INFO  librarystuff.LibraryDetailController : Deletion Cancled
+15:09:32.480 INFO  librarystuff.LibraryController : clicked on Bigone
+16:02:56.595 ERROR libraryPackage.LibraryTableGateway : error connecting --
+16:06:10.730 ERROR libraryPackage.LibraryTableGateway : error connecting --
+16:07:17.517 ERROR libraryPackage.LibraryTableGateway : error connecting --
+16:15:43.863 INFO  authorstuff.AuthorTableGateway : closed
+16:16:15.106 INFO  authorstuff.AuthorTableGateway : closed
+16:31:41.368 INFO  authorstuff.AuthorTableGateway : closed
+16:35:09.186 INFO  authorPackage.AuthorTableGateway : closed
+16:38:25.783 INFO  authorPackage.AuthorTableGateway : closed
+16:46:11.819 INFO  authorPackage.AuthorTableGateway : closed
+16:51:03.834 INFO  libraryPackage.LibraryController : clicked on test
